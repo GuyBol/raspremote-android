@@ -13,6 +13,14 @@
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp">
 
+        <EditText
+            android:id="@+id/host_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textUri"
+            android:text="raspberrypi" />
+
         <Button
             android:id="@+id/launch_kodi_button"
             android:layout_width="match_parent"
